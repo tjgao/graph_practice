@@ -26,8 +26,6 @@ directed_graph_loop2 = {
 # it ignores vertice that leads to cycle
 # and count the number of non-cycle vertex
 
-# a big advantage of bfs, is that it can form an order for us to follow
-# to visit all the nodes (if no cycle)
 def has_cycle(graph):
     # calc indegrees
     indegrees = dict()
